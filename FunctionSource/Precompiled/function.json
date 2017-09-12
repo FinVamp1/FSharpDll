@@ -1,0 +1,18 @@
+{
+  "scriptFile": "FSharpDll.dll",
+   "entryPoint": "FSharpDll.Class1.Runn",
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "res",
+      "type": "http",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
